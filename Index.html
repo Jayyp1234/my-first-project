@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aggregate Calculator
+    </title>
+</head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="index.js"></script>
+
+<body id="body">
+    <main>
+        <h1 style="text-align: center;font-weight: bolder;font-variant:small-caps;">Aggregate Calculator</h1>
+        <div id="select">
+            <label for="School" style="text-align: center;text-indent: 50px;"><em><strong>Please Select Your School.....</strong></em></label> <br><br>
+            <select id="School" onfocus="this.size=7" onblur="this.size=1" onchange="this.size=1; this.blur();">
+                <option id="hey" value="1"><abbr style="text-decoration:none;" title="Abubakar Tafawa Balewa University Bauchi"> ATBU </abbr></option>
+
+                <option id="hey" value="2"> <abbr style="text-decoration:none;" title="Ahmadu Bello University, Zaria"> ABU </abbr></option>
+
+                <option id="hey" value="3"><abbr style="text-decoration:none;" title="Bayero University, Kano"> BUK </abbr></option>
+
+                <option value="4" id="hey"><abbr style="text-decoration:none;" title="Federal University Gashua, Yobe"> FUGASHUA </abbr></option>
+
+                <option value="5" id="hey"><abbr style="text-decoration:none;" title="Federal University of Petroleum Resources, Effurun"> FUPRE </abbr></option>
+                <option value="6" id="hey"><abbr style="text-decoration:none;" title="Federal University of Technology, Akure"> FUTA </abbr></option>
+
+                <option value="7" id="hey"> <abbr style="text-decoration:none;" title="Federal University of Technology, Minna"> FUTMINNA </abbr></option>
+
+                <option value="8" id="hey"><abbr style="text-decoration:none;" title="Federal University of Technology, Owerri">FUTO </abbr></option>
+
+                <option value="9" id="hey"><abbr style="text-decoration:none;" title="Federal University, Dutse, Jigawa State"> FUD </abbr></option>
+
+                <option value="10" id="hey"><abbr style="text-decoration:none;" title="Federal University, Dutsin-Ma, Katsina"> FUDMA </abbr></option>
+
+                <option value="11" id="hey"><abbr style="text-decoration:none;" title="Federal University, Kashere, Gombe State ">FUKASHERE </abbr></option>
+
+                <option value="12" id="hey"><abbr style="text-decoration:none;" title=" Federal University, Lafia, Nasarawa State"> FULAFIA</abbr></option>
+
+                <option value="13" id="hey"><abbr style="text-decoration:none;" title="Federal University, Lokoja, Kogi State"> FULOKOJA</abbr></option>
+
+                <option value="14" id="hey"><abbr style="text-decoration:none;" title="Federal University, Ndifu-Alike, Ebonyi State"> FUNAI </abbr></option>
+
+                <option value="15" id="hey"><abbr style="text-decoration:none;" title="Federal University, Otuoke, Bayelsa">FUOTUOKE</abbr></option>
+
+                <option value="16" id="hey"><abbr style="text-decoration:none;" title="Federal University, Oye-Ekiti, Ekiti State"> FUOYE </abbr></option>
+
+                <option value="17" id="hey"><abbr style="text-decoration:none;" title="Federal University, Wukari, Taraba State"> FUWUKARI </abbr></option>
+
+                <option value="18" id="hey"><abbr style="text-decoration:none;" title="Federal University, Birnin Kebbi"> FUBK</abbr></option>
+
+                <option value="19" id="hey"><abbr style="text-decoration:none;" title="Federal University, Gusau Zamfara"> FUGUS </abbr></option>
+
+                <option value="20" id="hey"><abbr style="text-decoration:none;" title="Michael Okpara University of Agricultural Umudike"> MOUAU </abbr></option>
+
+                <option value="21" id="hey"><abbr style="text-decoration:none;" title="Modibbo Adama University of Technology, Yola " value="5"> MAUTECH </abbr></option>
+
+                <option value="22" id="hey"><abbr style="text-decoration:none;" title="National Open University of Nigeria, Lagos"> NOUN </abbr></option>
+
+                <option value="23" id="hey"><abbr style="text-decoration:none;" title="Nigeria Police Academy Wudil"> NPA </abbr></option>
+
+                <option value="24" id="hey"><abbr style="text-decoration:none;" title="Nigerian Defence Academy Kaduna">NDAK </abbr></option>
+
+                <option value="25" id="hey"><abbr style="text-decoration:none;" title="Nnamdi Azikiwe University, Awka"> UNIZIK </abbr></option>
+
+                <option value="26" id="hey"><abbr style="text-decoration:none;" title=" Obafemi Awolowo University,Ile-Ife"> OAU </abbr></option>
+
+                <option value="27" id="hey"><abbr style="text-decoration:none;" title="Federal University, Kashere, Gombe State ">UNIABUJA</abbr></option>
+
+                <option value="28" id="hey"><abbr style="text-decoration:none;" title="Federal University of Agriculture, Abeokuta">FUNAAB</abbr></option>
+
+                <option value="29" id="hey"><abbr style="text-decoration:none;" title=" University of Agriculture, Makurdi">FUAM </abbr></option>
+
+                <option value="30" id="hey"><abbr style="text-decoration:none;" title="University of Benin"> UNIBEN </abbr></option>
+
+                <option value="31" id="hey"><abbr style="text-decoration:none;" title="University of Calabar">UNICAL</abbr></option>
+
+                <option value="32" id="hey"><abbr style="text-decoration:none;" title="University of Ibadan"> UI </abbr></option>
+
+                <option value="33" id="hey"><abbr style="text-decoration:none;" title="University of Ilorin"> UNILORIN </abbr></option>
+
+                <option value="34" id="hey"><abbr style="text-decoration:none;" title="University of Jos">UNIJOS</abbr></option>
+
+                <option value="35" id="hey"><abbr style="text-decoration:none;" title="University of Lagos"> UNILAG </abbr></option>
+
+                <option value="36" id="hey"><abbr style="text-decoration:none;" title="University of Maiduguri"> UNIMAID </abbr></option>
+
+                <option value="37" id="hey"><abbr style="text-decoration:none;" title="University of Nigeria">UNN</abbr></option>
+
+                <option value="38" id="hey"><abbr style="text-decoration:none;" title="University of Port-Harcourt"> UNIPORT </abbr></option>
+
+                <option value="39" id="hey"><abbr style="text-decoration:none;" title="University of Uyo">UNIUYO</abbr></option>
+
+                <option value="40" id="hey"><abbr style="text-decoration:none;" title="Usumanu Danfodiyo University"> UDUSOK </abbr></option>
+                <option value="41" id="hey"><abbr style="text-decoration:none;" title="Nigerian Maritime University Okerenkoko, Delta State"> NMU </abbr></option>
+
+                <option value="42" id="hey"><abbr style="text-decoration:none;" title="ir Force Institute of Technology, Kaduna ">AFIT</abbr></option>
+
+                <option value="43" id="hey"><abbr style="text-decoration:none;" title="Nigerian Army University Biu"> NAUB </abbr></option>
+
+            </select>
+        </div>
+        <div id="ATBU" style="display: none;">
+            <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb" style="text-align: center;font-weight: bolder;">Jamb Score</label>
+            <input type="text" id="jamb" name=""> <br>
+            <label for="weac" style="text-align: center;font-weight: bolder;">Weac Score</label>
+            <div style="display:flex; justify-content: space-between;">
+                <input type="text" id="text1" style="width: 40px;height: 25px;" name="">
+                <input type="text" id="text2" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="text3" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="text4" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="text5" style="width: 40px; height: 25px;" name="">
+            </div> <br>
+            <div style="display: flex;justify-content: space-between;">
+                <select id="first" onclick="input1()">
+                    <option value="10">A1</option>
+                    <option value="9">B2</option>
+                    <option value="8">B3</option>
+                    <option value="7">C4</option>
+                    <option value="6">C5</option>
+                    <option value="5">C6</option>
+                </select>
+                <select id="second" onclick="input2()">
+                    <option value="10">A1</option>
+                    <option value="9">B2</option>
+                    <option value="8">B3</option>
+                    <option value="7">C4</option>
+                    <option value="6">C5</option>
+                    <option value="5">C6</option>
+                </select>
+                <select id="third" onclick="input3()">
+                    <option value="10">A1</option>
+                    <option value="9">B2</option>
+                    <option value="8">B3</option>
+                    <option value="7">C4</option>
+                    <option value="6">C5</option>
+                    <option value="5">C6</option>
+                </select>
+                <select id="fourth" onclick="input4()">
+                    <option value="10">A1</option>
+                    <option value="9">B2</option>
+                    <option value="8">B3</option>
+                    <option value="7">C4</option>
+                    <option value="6">C5</option>
+                    <option value="5">C6</option>
+                </select>
+                <select id="fifth" onclick="input5()">
+                    <option value="10">A1</option>
+                    <option value="9">B2</option>
+                    <option value="8">B3</option>
+                    <option value="7">C4</option>
+                    <option value="6">C5</option>
+                    <option value="5">C6</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="ABU" style="display: none;">
+            <button id="back" onclick="back()"><b>Back</b></button>
+            <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb1" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb1" name=""> <br>
+            <label for="post1" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post1" name=""> <br>
+        </div>
+
+        <div id="BUK" style="display: none;">
+            <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb2" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb2" name=""> <br>
+            <label for="post2" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post2" name=""> <br>
+        </div>
+
+        <div id="FUGASHUA" style="display: none;">
+            <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb3" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb3" name=""> <br>
+
+            <label for="weac2" style="text-align: center;font-weight:bolder;">Weac Score</label>
+            <div style="display:flex; justify-content: space-between;">
+                <input type="text" id="tex1" style="width: 40px;height: 25px;" name="">
+                <input type="text" id="tex2" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="tex3" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="tex4" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="tex5" style="width: 40px; height: 25px;" name="">
+            </div> <br>
+            <div style="display: flex;justify-content: space-between;">
+                <select id="firs" onclick="inpu1()">
+                    <option value="4">A1</option>
+                    <option value="3.6">B2</option>
+                    <option value="3.2">B3</option>
+                    <option value="2.8">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2.0">C6</option>
+                </select>
+                <select id="secon" onclick="inpu2()">
+                    <option value="4">A1</option>
+                    <option value="3.6">B2</option>
+                    <option value="3.2">B3</option>
+                    <option value="2.8">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2.0">C6</option>
+                </select>
+                <select id="thir" onclick="inpu3()">
+                    <option value="4">A1</option>
+                    <option value="3.6">B2</option>
+                    <option value="3.2">B3</option>
+                    <option value="2.8">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2.0">C6</option>
+                </select>
+                <select id="fourt" onclick="inpu4()">
+                    <option value="4">A1</option>
+                    <option value="3.6">B2</option>
+                    <option value="3.2">B3</option>
+                    <option value="2.8">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2.0">C6</option>
+                </select>
+                <select id="fift" onclick="inpu5()">
+                    <option value="4">A1</option>
+                    <option value="3.6">B2</option>
+                    <option value="3.2">B3</option>
+                    <option value="2.8">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2.0">C6</option>
+                </select>
+            </div><br>
+            <label for="post3" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post3" name=""> <br>
+        </div>
+
+        <div id="FUPRE" style="display: none;">
+            <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb4" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb4" name=""> <br>
+            <label for="post4" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post4" name=""> <br>
+        </div>
+
+        <div id="FUTA" style="display: none;">
+            <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb5" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb5" name=""> <br>
+            <label for="post5" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post5" name=""> <br>
+        </div>
+
+        <div id="FUTMINNA" style="display: none;">
+            <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb6" style="text-align: center;font-weight: bolder;">Jamb Score</label>
+            <input type="text" id="jamb6" name=""> <br>
+            <label for="weac" style="text-align: center;font-weight: bolder;">Weac Score</label>
+            <div style="display:flex; justify-content: space-between;">
+                <input type="text" id="te1" style="width: 40px;height: 25px;" name="">
+                <input type="text" id="te2" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="te3" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="te4" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="te5" style="width: 40px; height: 25px;" name="">
+            </div> <br>
+            <div style="display: flex;justify-content: space-between;">
+                <select id="fir" onclick="inp1()">
+                    <option value="8">A1</option>
+                    <option value="7">B2</option>
+                    <option value="6">B3</option>
+                    <option value="5">C4</option>
+                    <option value="4">C5</option>
+                    <option value="3">C6</option>
+                </select>
+                <select id="seco" onclick="inp2()">
+                    <option value="8">A1</option>
+                    <option value="7">B2</option>
+                    <option value="6">B3</option>
+                    <option value="5">C4</option>
+                    <option value="4">C5</option>
+                    <option value="3">C6</option>
+                </select>
+                <select id="thi" onclick="inp3()">
+                    <option value="8">A1</option>
+                    <option value="7">B2</option>
+                    <option value="6">B3</option>
+                    <option value="5">C4</option>
+                    <option value="4">C5</option>
+                    <option value="3">C6</option>
+                </select>
+                <select id="four" onclick="inp4()">
+                    <option value="8">A1</option>
+                    <option value="7">B2</option>
+                    <option value="6">B3</option>
+                    <option value="5">C4</option>
+                    <option value="4">C5</option>
+                    <option value="3">C6</option>
+                </select>
+                <select id="fif" onclick="inp5()">
+                    <option value="8">A1</option>
+                    <option value="7">B2</option>
+                    <option value="6">B3</option>
+                    <option value="5">C4</option>
+                    <option value="4">C5</option>
+                    <option value="3">C6</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="FUTO" style="display: none;">
+         <label for="School"><em><strong>Please Input Your Details.....</strong></em></label>
+            <hr>
+            <label for="jamb7" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb7" name=""> <br>
+            <label for="post7" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post7" name=""> <br>
+                        <div style="display:flex; justify-content: space-between;">
+                <input type="text" id="t1" style="width: 40px;height: 25px;" name="">
+                <input type="text" id="t2" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="t3" style="width: 40px; height: 25px;" name="">
+                <input type="text" id="t4" style="width: 40px; height: 25px;" name="">
+            </div> <br>
+            <div style="display: flex;justify-content: space-between;">
+                <select id="fi" onclick="in1()">
+                    <option value="6">A1</option>
+                    <option value="4.1">B2</option>
+                    <option value="4">B3</option>
+                    <option value="3.1">C4</option>
+                    <option value="3">C5</option>
+                    <option value="2">C6</option>
+                </select>
+                <select id="sec" onclick="in2()">
+                    <option value="6">A1</option>
+                    <option value="4.1">B2</option>
+                    <option value="4">B3</option>
+                    <option value="3.1">C4</option>
+                    <option value="3">C5</option>
+                    <option value="2">C6</option>
+                </select>
+                <select id="th" onclick="in3()">
+                    <option value="6">A1</option>
+                    <option value="4.1">B2</option>
+                    <option value="4">B3</option>
+                    <option value="3.1">C4</option>
+                    <option value="3">C5</option>
+                    <option value="2">C6</option>
+                </select>
+                <select id="fou" onclick="in4()">
+                   <option value="6">A1</option>
+                    <option value="4.1">B2</option>
+                    <option value="4">B3</option>
+                    <option value="3.1">C4</option>
+                    <option value="3">C5</option>
+                    <option value="2">C6</option>
+                </select>
+            </div>
+        </div>
+        
+        <div id="FUD" style="display: none" > 
+            <label for="jamb8" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb8" name=""> <br>
+            <label for="post8" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post8" name=""> <br>
+        </div>
+        
+        <div id="FUDMA" style="display: none" > 
+            <label for="jamb9" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb9" name=""> <br>
+            <label for="post9" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post9" name=""> <br>
+        </div>
+        
+        <div id="FUKASHERE" style="display: none" > 
+            <label for="jamb10" style="text-align: center;font-weight:bolder;">Jamb Score</label>
+            <input type="text" id="jamb9" name=""> <br>
+            <label for="post10" style="text-align: center;font-weight:bolder;">Post Utme Score</label>
+            <input type="text" id="post10" name=""> <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="answer">
+
+        </div>
+
+        <button id="next" onclick="next()"><b> Next </b></button>
+        <button id="next1" style="display:none;" onclick="next1()"><b> Calculate </b></button>
+        <button id="next2" style="display:none;" onclick="next2()"><b> Calculate. </b></button>
+        <button id="next3" style="display:none;" onclick="next3()"><b> Calculate.. </b></button>
+        <button id="next4" style="display:none;" onclick="next4()"><b> Calculate.. </b></button>
+        <button id="next5" style="display:none;" onclick="next5()"><b> Calculate.. </b></button>
+        <button id="next6" style="display:none;" onclick="next6()"><b> Calculate </b></button>
+        <button id="next7" style="display:none;" onclick="next7()"><b> Calculate. </b></button>
+        <button id="next8" style="display:none;" onclick="next8()"><b> Calculate.. </b></button>
+        <button id="next9" style="display:none;" onclick="next9()"><b> Calculate.. </b></button>
+        <button id="next10" style="display:none;" onclick="next10()"><b> Calculate.. </b></button>\
+        <button id="next11" style="display:none;" onclick="next11()"><b> Calculate </b></button>
+        <button id="next12" style="display:none;" onclick="next12()"><b> Calculate. </b></button>
+        <button id="next13" style="display:none;" onclick="next13()"><b> Calculate.. </b></button>
+        <button id="next14" style="display:none;" onclick="next14()"><b> Calculate.. </b></button>
+        <button id="next15" style="display:none;" onclick="next15()"><b> Calculate.. </b></button>
+        <button id="next16" style="display:none;" onclick="next16()"><b> Calculate </b></button>
+        <button id="next17" style="display:none;" onclick="next17()"><b> Calculate. </b></button>
+        <button id="next18" style="display:none;" onclick="next18()"><b> Calculate.. </b></button>
+        <button id="next19" style="display:none;" onclick="next19()"><b> Calculate.. </b></button>
+        <button id="next20" style="display:none;" onclick="next20()"><b> Calculate.. </b></button>
+
+
+    </main>
+
+</html>

@@ -1,0 +1,55 @@
+body{
+	margin:0px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+main{
+	width:400px;
+	height: 70%;
+	border:3px double black;
+	background-color: cyan;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: space-around;
+	align-items: center;
+}
+#School{
+	margin-right: auto;
+	margin-left:100px;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: verdana;
+	font-weight: bolder;
+	overflow-y: scroll;
+
+
+}
+#hey{
+	text-align: center;
+	border-top: 1px solid black;
+	padding: 5px;
+}
+#next ,#next1, #next2,#next3,#next4,#next5 ,#back{
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: 160px;
+}
+#jamb , #jamb1,  #post1, #jamb2,#jamb3,#post3, #post2{
+	height: 30px;
+	border-radius: 7px;
+	text-align: center;
+	padding: 4px;
+	margin-left: 100px;
+	width: 50%
+}
+#weac {
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+}
